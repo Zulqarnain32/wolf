@@ -12,11 +12,11 @@ const manifestForPlugin = {
     description: "An app that can show the weather forecast for your city.",
     icons: [
       
-      // {
-      //   src: "./icon-192x192.png",
-      //   sizes: "192x192",
-      //   type: "image/png"
-      // },
+      {
+        src: "./icon-192x192.png",
+        sizes: "192x192",
+        type: "image/png"
+      },
       // {
       //   src: "./icon-512x512.png",
       //   sizes: "512x512",
@@ -48,12 +48,12 @@ const manifestForPlugin = {
       //   purpose: "any maskable"
       // }
     ],
-    // theme_color: "#181818",
-    // background_color: "#e8eac2",
-    // display: "standalone",
-    // scope: "/",
-    // start_url: "/",
-    // orientation: "portrait",
+    theme_color: "#181818",
+    background_color: "#e8eac2",
+    display: "standalone",
+    scope: "/",
+    start_url: "/",
+    orientation: "portrait",
   },
 };
 
