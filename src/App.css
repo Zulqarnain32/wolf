@@ -1,42 +1,279 @@
-#root {
-  max-width: 1280px;
+*{
+  margin: 0;padding: 0;padding: 0;
+  padding: 0;padding: 0;
+  padding: 0;padding: 0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Poppins',sans-serif;
+}
+
+:root {
+  --main-color: #171d7e;
+  --text-color: rgb(255, 255, 14); 
+}
+::-webkit-scrollbar {
+  display: none;
+
+}
+
+.overlay {
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(86, 84, 84, 0.5); /* Black-blue color with transparency */
+  z-index: 999;
+}
+
+.navbar-container {
+ 
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: var(--main-color);
+  position: relative;
+  vertical-align: middle;
+  position: sticky;
+  top:0;
+  z-index: 10;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  overflow: none;
+  font-size: 30px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo-img{
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  background: none; 
+  border: none;
+  vertical-align: center;
+  margin-top: 6px;
+  
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.menu-icon {
+  display: none;
+}
+
+.nav-elements {
+  font-size: 20px;
+}
+.nav-element{
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-color);
+
+}
+.close-nav{
+  display: none;
+}
+
+
+/*? Scorers component css is here  */
+.scorers-component{
+  display: flex;
+  flex-wrap: wrap;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.single-player-score{
+  padding: 20px;
+  width: 100%;
+  padding: 20px ;
+  margin: 10px 0;
+
+}
+.goals-count ,.matches-count, .assist-count{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+
+}
+.color{
+  color: var(--main-color);
+
+}
+.pos{
+  color: rgb(85, 84, 84);
+  font-weight: normal;
+}
+.matches-count{
+  margin-top: 20px;
+}
+.light{
+  color: #474444;
+  font-weight: normal;
+  /* color: #000; */
+}
+
+.search-player{
+  width: 92%;
+  margin: 30px auto 10px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.no-found{
+  text-align: center;
+  display: block;
+  color: red;
+  width: 100%;
+}
+
+
+
+/* Matchdat  */
+.match-container{
+  width: 500px;
+  height: 600px;
+  /* font-size: 20px; */
+  /* border: 2px solid rgb(18, 16, 16); */
+  /* background-color: orange; */
+  margin: 10px auto;
+}
+.header{
+  height: 70px;
+  background-color: var(--main-color);
+  background-color: rgb(193, 22, 113);
+  /* color: var(--main-color); */
+  word-spacing: 2px;
+  border: none;
+  
+}
+.teams{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 10px;
+
+}
+.teams>div{
+  background-color: var(--main-color);
+  color: var(--text-color);
+  line-height: 60px;
+  padding: 0 20px;
+  font-size: 23px;
+}
+.players h2{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.players p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  */
+
+@media (max-width: 600px) {
+  .match-container{
+    width: 340px;
   }
-  to {
-    transform: rotate(360deg);
+  .logo{
+    font-size: 25px ;
+    padding-left: 10px;
+  }
+  .navbar-container{
+    padding: 0 10px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger{
+    padding-right: 10px;
+    font-size: 40px;
+    color: var(--text-color);
+  }
+  .close-nav{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    color: var(--text-color);
+    font-weight: bolder;
+  }
+  .nav-elements {
+    position: absolute;
+    left: -140px;
+    top: 70px;
+    background-color: var(--main-color);
+    width: 140px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  .nav-element:first-child{
+    margin-top: 30px;
+  }
+  .nav-element{
+    display: block;
+    padding: 0;
+    margin-left: 0px;
+    padding-left: 10px;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid white;
+  }
+
+  .nav-elements.active {
+    left: 0px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.caro-img{
+  height: calc(100vh - 70px);
+  object-fit: contain;
+  object-fit: cover;
+  width: 100%;
 }
