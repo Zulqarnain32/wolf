@@ -17,12 +17,12 @@ const manifestForPlugin = {
         sizes: "192x192",
         type: "image/png"
       },
-      // {
-      //   src: "./icon-512x512.png",
-      //   sizes: "512x512",
-      //   type: "image/png",
-      //   purpose:'favicon'
-      // },
+      {
+        src: "./icon-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose:'favicon'
+      },
       // {
       //   src: '/apple-touch-icon.png',
       //   sizes:'180x180',
