@@ -6,8 +6,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Your App Name',
-        short_name: 'App',
+        name: 'Wolf FC',
+        short_name: 'wolf',
         description: 'Your App Description',
         theme_color: '#ffffff',
         background_color: '#ffffff',
