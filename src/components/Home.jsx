@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <div className="goals-count mt">
           <h2>Goal Difference</h2>
-          <h2>-1</h2>
+          <h2>-2</h2>
         </div>
       </div>
     </>
