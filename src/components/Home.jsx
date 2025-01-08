@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className="team-reports">
         <div className="goals-count mt">
-          <h2>Matched  Played</h2>
+          <h2>Matched  Playedss</h2>
           <h2>1</h2>
         </div>
         <div className="goals-count mt">
