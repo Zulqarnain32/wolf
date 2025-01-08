@@ -1,58 +1,4 @@
-// import React from "react";
 
-// const Matches = () => {
-//   return (
-//     <>
-//       <div className="match-container">
-        
-//         <div className="teams">
-//           <div className="our-team">WOLF FC</div>
-//           <div className="opponent-team">OLD RAVI</div>
-//         </div>
-//        <div className="match-info">
-//        <div className="players">
-//           <h2>Starting XI</h2>
-//           <div>
-//             <p>Zeeshan</p>
-//             <p>Sanaullah</p>
-//             <p>Zuraiz</p>
-//             <p>Danish</p>
-//             <p>Arslan</p>
-//             <p>Daniyal</p>
-//             <p>Bilal (K) </p>
-//             <p>Amanullah</p>
-//             <p>Atique</p>
-//             <p>Javaid</p>
-//             <p>Basit</p>
-//           </div>
-//         </div>
-//         <div className="players">
-//           <h2>Substitutions </h2>
-//           <div>
-//             <p>Zeeshan</p>
-//             <p>Umair</p>
-//             <p>Amanullah</p>
-//             <p>Hamza</p>
-//             <p>Daniyal jr</p>
-//             <p>Haider</p>
-//             <p>Hamza</p>
-//             <p>Abu Bakr</p>
-           
-//           </div>
-//           <div className="goal-scorers box">
-//             Goal Scorers
-//           </div>
-//         </div>
-//        </div>
-//        <div className="match-res">
-//         7 - 3
-//        </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Matches;
 
 import React, { useEffect } from 'react'
 import HistoryData from '../historyApi/HistoryData'
@@ -105,7 +51,7 @@ const Matches = () => {
                 
                   </div>
                 </div>
-                <div className="scorers1 ">
+                {/* <div className="scorers1 ">
                   <div>
                     {
                       players.goalScorers.team2Scorers.map((scorer, i) => (
@@ -116,7 +62,7 @@ const Matches = () => {
                     }
                 
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))
