@@ -7,7 +7,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Wolf FC',
-        short_name: 'Wolf fc',
+        short_name: 'Wolf fC',
         description: 'Your App Description',
         theme_color: '#000000',
         background_color: '#000000',

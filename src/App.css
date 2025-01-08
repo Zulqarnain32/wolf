@@ -197,13 +197,124 @@
   margin-top: 30px;
 }
 
+.match-info{
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.match-res{
+  background-color: var(--main-color);
+  color: var(--text-color);
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+
+}
+
+.box{
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-weight: bold;
+  /* width: 120px; */
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+  margin-top: 10px;
+}
 
 
 
 
 
+/*? Match post are here  */
 
+.date{
+  margin-bottom: 10px;
+}
+.match-post{
+  width: 92%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 5px rgb(208, 207, 207);
+  background-color: rgb(224, 224, 220);
+  position: relative;
 
+}
+.match-num{
+  color: var(--main-color);
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.red{
+  /* background-color: rgb(49, 49, 49); */
+  color: #fff;
+  /* background: linear-gradient(rgb(4, 245, 213),rgb(145, 5, 226)); */
+  background: linear-gradient(rgb(58, 58, 248),rgb(1, 1, 4));
+
+}
+.blue{
+  /* background-color: rgb(255, 255, 255); */
+  color: white;
+  /* color: #000000; */
+  background: linear-gradient(rgb(190, 5, 177),rgb(62, 53, 48));
+
+}
+.complete-match{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.team{
+   text-align: center;
+}
+.team h2{
+  color:#fff;
+  display: block;
+  background-color: orange;
+  padding: 10px;
+}
+.team p{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.goalscorers{
+  font-size: 20px;
+  display: block;
+  /* margin-top: 20px; */
+  margin: 20px auto;
+  background-color: orange;
+  width: 160px;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.final-score{
+  background-color: #ff5c11;
+  font-weight: bolder;
+  font-size: 30px;
+  width: 80px;
+  padding: 5px 0;
+
+}
+.scorers1  h4{
+  margin-top: 10px;
+}
+.team-scorers{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
