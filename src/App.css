@@ -247,7 +247,7 @@
 
 }
 .match-num{
-  color: var(--main-color);
+  color: var(--text-color);
   font-size: 30px;
   position: absolute;
   right: 10px;
