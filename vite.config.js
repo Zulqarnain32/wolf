@@ -9,8 +9,8 @@ export default defineConfig({
         name: 'Wolf FC',
         short_name: 'Wolf fC',
         description: 'Your App Description',
-        theme_color: '#000000',
-        background_color: '#000000',
+        theme_color: '#ffffff',
+        background_color: '#ffffff',
         display: 'standalone',
         icons: [
           {
