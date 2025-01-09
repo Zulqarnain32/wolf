@@ -6,7 +6,7 @@ const HistoryData = [
         },
         captains: {
             captain1: "Wolf FC ",
-            captain2: "Correnl",
+            captain2: "Commtel",
         },
         team1: {
             player1: "Abdul Rehman",
@@ -33,7 +33,7 @@ const HistoryData = [
         },
         goalScorers: {
             team1Scorers: ['Ali ⚽️','Arslan ⚽️',],
-            team2Scorers: ['Naeem ⚽️']
+            assistProviders: ['Zuraiz 🎯']
         },
         finalScore: "2 - 4"
     },

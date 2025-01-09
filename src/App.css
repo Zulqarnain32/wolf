@@ -186,7 +186,7 @@
 .team-reports{
   width: 80%;
   margin: 20px auto;
-  padding: 30px 10px;
+  padding: 30px 20px;
   background-color: var(--main-color);
   color: var(--text-color);
   border-radius: 20px;
@@ -284,7 +284,7 @@
   padding: 10px;
 }
 .team p{
-  margin-top: 10px;
+  margin-top: 3px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -317,7 +317,10 @@
 }
 
 
-
+.back{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
 
 
 
