@@ -116,8 +116,8 @@ const HistoryData = [
             player7: "Zeeshan",
             player8: "Zuraiz",
             player9: "Danish",
-            player10: "Umar (K)",
-            player11: "Daniyal",
+            player10: "Umair (K)",
+            player11: "Umar",
                    
         },
         team2: {
