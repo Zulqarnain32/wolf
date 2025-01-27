@@ -264,7 +264,18 @@
   /* background-color: rgb(255, 255, 255); */
   color: white;
   /* color: #000000; */
-  background: linear-gradient(rgb(190, 5, 177),rgb(62, 53, 48));
+  background: linear-gradient(rgb(33, 204, 239),rgb(62, 53, 48));
+
+}
+.match-between{
+  text-align: center;
+  margin: 10px 0;
+
+  color: #fff;
+  font-size: 23px;
+  word-spacing: 7px;
+  background-color: #ff5c11;
+  padding: 10px 0;
 
 }
 .complete-match{
@@ -278,10 +289,9 @@
    text-align: center;
 }
 .team h2{
-  color:#fff;
   display: block;
-  background-color: orange;
   padding: 10px;
+  color: var(--text-color);
 }
 .team p{
   margin-top: 3px;
@@ -289,14 +299,10 @@
   font-size: 20px;
 }
 .goalscorers{
-  font-size: 20px;
+  font-size: 25px;
   display: block;
-  /* margin-top: 20px; */
-  margin: 20px auto;
-  background-color: orange;
-  width: 160px;
-  color: #fff;
-  padding: 10px 0;
+  margin: 10px auto;
+  color: var(--text-color);
   text-align: center;
 }
 .final-score{

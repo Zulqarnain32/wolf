@@ -19,15 +19,17 @@ const Matches = () => {
             <p className="date">
               Date & Day : {players.timeStamp.day} {players.timeStamp.date}
             </p>
+              {/* <div className="match-between">Wolf FC vs Commtel </div> */}
+              <div className="match-between">{players.matchbetween} </div>
             <div className="complete-match">
               <div className="team team1">
-                <h2>{players.captains.captain1}</h2>
+                <h2>Starting X1</h2>
                 {Object.keys(players.team1).map((key, index) => (
                   <p key={index}>{players.team1[key]}</p>
                 ))}
               </div>
               <div className="team team2">
-                <h2>{players.captains.captain2}</h2>
+                <h2>Substitutions</h2>
                 {Object.keys(players.team2).map((key, index) => (
                   <p key={index}>{players.team2[key]}</p>
                 ))}
@@ -46,7 +48,7 @@ const Matches = () => {
                   ))}
                 </div>
               </div>
-              <div className="scorers1 ">
+              {/* <div className="scorers1 ">
                 <div>
                   {players.goalScorers.assistProviders.map((scorer, i) => (
                     <div key={i}>
@@ -54,7 +56,7 @@ const Matches = () => {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
