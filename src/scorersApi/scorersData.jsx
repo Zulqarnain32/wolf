@@ -39,7 +39,7 @@ const scorerData = [
         id: 5,
         player: "Hassan",
         matchPlayed: 4,
-        Goals: 1,
+        Goals: 2,
         bg: "#1de8a1",
         assists:0,
         position: "Forward"
