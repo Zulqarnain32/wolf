@@ -65,6 +65,8 @@ const HistoryData = [
         },
         goalScorers: {
             team1Scorers: ['Own Goal ⚽️'],
+            assistProviders: ['Zuraiz 🎯']
+
         },
         finalScore: "1 - 3"
     },
@@ -97,6 +99,8 @@ const HistoryData = [
                 'hassan ⚽️',
                 'zuraiz ⚽️'
             ],
+            assistProviders: ['Zuraiz 🎯']
+
         },
         finalScore: "6 - 3"
     },
@@ -126,6 +130,7 @@ const HistoryData = [
         },
         goalScorers: {
             team1Scorers: ['Zuraiz ⚽️⚽️⚽️','Arslan ⚽️','Zulqarnain ⚽️','Danish ⚽️'],
+            assistProviders: ['Danish 🎯🎯','Arslan 🎯🎯🎯','Zeeshan 🎯']
         },
         finalScore: "6 - 3"
     },

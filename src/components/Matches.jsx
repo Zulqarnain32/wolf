@@ -48,7 +48,7 @@ const Matches = () => {
                   ))}
                 </div>
               </div>
-              {/* <div className="scorers1 ">
+              <div className="scorers1 ">
                 <div>
                   {players.goalScorers.assistProviders.map((scorer, i) => (
                     <div key={i}>
@@ -56,7 +56,7 @@ const Matches = () => {
                     </div>
                   ))}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
