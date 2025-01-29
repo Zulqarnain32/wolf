@@ -2,18 +2,20 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Scorers from './components/Scorers';
-import Matches from './components/Matches';
+import Club from './components/Club';
 import Home from './components/Home';
 import './App.css';
+import Academy from './components/Academy';
 
 const App = () => {
   const Layout = ({ children }) => {
     const location = useLocation();
-    const showNavbar = location.pathname !== '/matches';
-
+    let  showNavbar = location.pathname === '/club' || location.pathname === '/academy'  ;
+  console.log("value of shownavbar", showNavbar);
+  
     return (
       <>
-        {showNavbar && <Navbar />}
+        {!showNavbar && <Navbar />}
         {children}
       </>
     );
@@ -25,7 +27,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/scorers" element={<Scorers />} />
-          <Route path="/matches" element={<Matches />} />
+          <Route path="/club" element={<Club />} />
+          <Route path="/academy" element={<Academy />} />
         </Routes>
       </Layout>
     </BrowserRouter>

@@ -36,9 +36,9 @@ const Navbar = () => {
       <div className={`nav-elements ${showNavbar && 'active'}`}>
         <RxCross2 className="close-nav" onClick={closeNav} />
         <Link to="/" className="nav-element" onClick={closeNav}>Home</Link>
-        <Link to="/players" className="nav-element" onClick={closeNav}>Players</Link>
+        <Link to="/academy" className="nav-element" onClick={closeNav}>Academy</Link>
         <Link to="/scorers" className="nav-element" onClick={closeNav}>Scorers</Link>
-        <Link to="/matches" className="nav-element" onClick={closeNav}>Matches</Link>
+        <Link to="/club" className="nav-element" onClick={closeNav}>Club</Link>
       </div>
     </div>
   );
