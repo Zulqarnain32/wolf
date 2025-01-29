@@ -95,8 +95,8 @@ const HistoryData = [
      
         },
         goalScorers: {
-            teamScorers: ['Zeeshan ⚽️⚽️','Danish ⚽️⚽️','hassan ⚽️','zuraiz ⚽️' ],
-            assistProviders: ['bhaya 🎯🎯','danish 🎯','zuraiz 🎯']
+            teamScorers: ['Zeeshan ⚽️⚽️','Danish ⚽️⚽️','Hassan ⚽️','Zuraiz ⚽️' ],
+            assistProviders: ['Bhaya 🎯🎯','Danish 🎯','Zuraiz 🎯']
 
         },
         finalScore: "6 - 3"
