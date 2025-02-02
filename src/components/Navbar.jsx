@@ -34,11 +34,11 @@ const Navbar = () => {
       </div>
       {showNavbar && <div className="overlay" onClick={closeNav}></div>} {/* Overlay when navbar is shown */}
       <div className={`nav-elements ${showNavbar && 'active'}`}>
-        <RxCross2 className="close-nav" onClick={closeNav} />
+        {/* <RxCross2 className="close-nav" onClick={closeNav} /> */}
         <Link to="/" className="nav-element" onClick={closeNav}>Home</Link>
-        <Link to="/academy" className="nav-element" onClick={closeNav}>Academy</Link>
-        <Link to="/scorers" className="nav-element" onClick={closeNav}>Scorers</Link>
         <Link to="/club" className="nav-element" onClick={closeNav}>Club</Link>
+        <Link to="/scorers" className="nav-element" onClick={closeNav}>Scorers</Link>
+        <Link to="/academy" className="nav-element" onClick={closeNav}>Academy</Link>
       </div>
     </div>
   );

@@ -272,8 +272,8 @@
   margin: 10px 0;
 
   color: #fff;
-  font-size: 23px;
-  word-spacing: 7px;
+  font-size: 22px;
+  /* word-spacing: 3px; */
   background-color: #ff5c11;
   padding: 10px 0;
 
@@ -388,7 +388,8 @@
     z-index: 1000;
   }
   .nav-element:first-child{
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 0;
   }
   .nav-element{
     display: block;
