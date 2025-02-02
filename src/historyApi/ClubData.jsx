@@ -130,6 +130,38 @@ const HistoryData = [
         },
         finalScore: "6 - 3"
     },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "02-February-2025"
+        },
+        matchbetween:"Wolf FC vs Mama FC",
+        starting11: {
+            player1: "Wahab",
+            player2: "Basit",
+            player3: "Zulqarnain",
+            player4: "Arslan",
+            player5: "Javiad (C)",
+            player6: "Umar",
+            player7: "Sanaullah",
+            player8: "Zuraiz",
+            player9: "Danish",
+            player10: "Usman (K)",
+            player11: "Hassan",
+                   
+        },
+        substitutions: {
+            player1: "Hamza",   
+            player2: "Umair",   
+            player3: "Amanullah",   
+            player4: "Daniyal",   
+        },
+        goalScorers: {
+            teamScorers: [''],
+            assistProviders: ['']
+        },
+        finalScore: "0 - 2"
+    },
 ]
 
 export default HistoryData

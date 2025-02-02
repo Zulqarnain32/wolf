@@ -1,11 +1,10 @@
 *{
-  margin: 0;padding: 0;padding: 0;
-  padding: 0;padding: 0;
-  padding: 0;padding: 0;
+  margin: 0;
   padding:0;
   box-sizing: border-box;
   list-style: none;
   font-family: 'Poppins',sans-serif;
+  font-family: Roboto Flex;
 }
 
 :root {
@@ -140,8 +139,9 @@
 
 /* Matchdat  */
 .match-container{
-  width: 500px;
+  width: 100px;
   height: 600px;
+  background-color: red;
   /* font-size: 20px; */
   /* border: 2px solid rgb(18, 16, 16); */
   /* background-color: orange; */
@@ -178,7 +178,7 @@
 
 .players p{
   font-size: 20px;
-  font-weight: bold;
+  /* font-weight: ; */
   margin-top: 10px;
 }
 
@@ -199,7 +199,7 @@
 
 .match-info{
   display: flex;
-  font-weight: bold;
+  /* font-weight: bold; */
   justify-content: space-between;
 }
 
@@ -211,7 +211,7 @@
   padding: 10px;
   text-align: center;
   font-size: 25px;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: 3px;
 
 }
@@ -219,7 +219,7 @@
 .box{
   background-color: var(--main-color);
   color: var(--text-color);
-  font-weight: bold;
+  /* font-weight: bold; */
   /* width: 120px; */
   text-align: center;
   padding: 10px;
@@ -237,7 +237,7 @@
   margin-bottom: 10px;
 }
 .match-post{
-  width: 92%;
+  width: 95%;
   margin: 10px auto;
   padding: 20px;
   border-radius: 4px;
@@ -281,21 +281,35 @@
 .complete-match{
   display: flex;
   justify-content: space-between;
+  justify-content: center;
   width: 100%;
+  /* background-color: red; */
   border-radius: 10px;
   flex-wrap: wrap;
 }
 .team{
-   text-align: center;
+   text-align: left;
+}
+.team1{
+  /* background-color: orange; */
+  width: 150px;
+}
+.team2{
+  /* background-color: aqua; */
+  width: 120px;
 }
 .team h2{
   display: block;
-  padding: 10px;
+  padding: 10px 0px;
   color: var(--text-color);
+  text-align: left ;
+  /* padding: 0; */
+  /* color: red; */
+  font-size: 22px;
 }
 .team p{
   margin-top: 3px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 20px;
 }
 .goalscorers{
@@ -335,6 +349,7 @@
 @media (max-width: 600px) {
   .match-container{
     width: 340px;
+   
   }
   .logo{
     font-size: 25px ;

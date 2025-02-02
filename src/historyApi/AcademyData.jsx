@@ -59,7 +59,7 @@ const AcademyData = [
             player4: "Farhan",
         },
         goalScorers: {
-            teamScorers: ['Zeeshan ⚽️','Zuriaz','Danish ⚽️', 'Farhan  ⚽️','Abdullah  ⚽️'],
+            teamScorers: ['Zeeshan ⚽️','Zuriaz ⚽️','Danish ⚽️', 'Farhan  ⚽️','Abdullah  ⚽️'],
             assistProviders: ['Danish 🎯🎯']
         },
         finalScore: "5 - 2"
