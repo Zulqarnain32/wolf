@@ -2,7 +2,7 @@ const scorerData = [
     {
         id: 1,
         player: "Zeeshan",
-        matchPlayed: 4,
+        matchPlayed: 5,
         Goals: 2,
         bg: "#f1b18c",
         assists:0,
@@ -11,7 +11,7 @@ const scorerData = [
     {
         id: 2,
         player: "Arslan",
-        matchPlayed: 4,
+        matchPlayed: 5,
         Goals: 2,
         bg: "#bb9df6",
         assists:0,
@@ -20,7 +20,7 @@ const scorerData = [
     {
         id: 3,
         player: "Zulqarnain",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 1,
         assists:0,
         bg: "#f6e562",
@@ -29,7 +29,7 @@ const scorerData = [
     {
         id: 4,
         player: "Zuraiz",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 4,
         assists:1,
         bg: "#afc5ce",
@@ -38,7 +38,7 @@ const scorerData = [
     {
         id: 5,
         player: "Hassan",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 2,
         bg: "#1de8a1",
         assists:0,
@@ -74,7 +74,7 @@ const scorerData = [
     {
         id: 9,
         player: "Atique",
-        matchPlayed: 2,
+        matchPlayed: 3,
         Goals: 0,
         bg: "#70e774",
         assists:0,
@@ -83,7 +83,7 @@ const scorerData = [
     {
         id: 10,
         player: "Umair",
-        matchPlayed: 3,
+        matchPlayed: 4,
         Goals: 0,
         assists:0,
         bg: "#c7b9ee",
@@ -101,7 +101,7 @@ const scorerData = [
     {
         id: 12,
         player: "Javaid",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 0,
         bg: "#61dd87",
         assists:0,
@@ -120,7 +120,7 @@ const scorerData = [
         id: 14,
         player: "Amanullah",
         Goals: 0,
-        matchPlayed: 4,
+        matchPlayed: 5,
         assists:0,
         bg: "#d79999",
         position: "Defender"
@@ -137,7 +137,7 @@ const scorerData = [
     {
         id: 16,
         player: "Hamza ",
-        matchPlayed: 4,
+        matchPlayed: 5,
         Goals: 0,
         assists:0,
         bg: "#7ec774",

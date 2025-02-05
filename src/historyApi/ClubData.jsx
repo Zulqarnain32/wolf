@@ -162,6 +162,37 @@ const HistoryData = [
         },
         finalScore: "0 - 2"
     },
+    {
+        timeStamp: {
+            day: "Wednesday",
+            date: "05-February-2025"
+        },
+        matchbetween:"Wolf Academy vs Shaheen FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Hamza",
+            player3: "Wahab",
+            player4: "Zulqarnain",
+            player5: "Umair",
+            player6: "Javaid (C)",
+            player7: "Zain",
+            player8: "Atique",
+            player9: "Zuraiz",
+            player10: "Zeeshan",
+            player11: "Amanullah",
+                   
+        },
+        substitutions: {
+            player1: "Hassan",
+            player2: "Arslan",
+        },
+        goalScorers: {
+            teamScorers: ["Umair ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "1 - 2"
+    },
 ]
 
 export default HistoryData
