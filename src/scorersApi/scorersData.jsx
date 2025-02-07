@@ -5,7 +5,7 @@ const scorerData = [
         matchPlayed: 5,
         Goals: 2,
         bg: "#f1b18c",
-        assists:0,
+        assists:1,
         position: "Forward"
     },
     {
@@ -14,7 +14,7 @@ const scorerData = [
         matchPlayed: 5,
         Goals: 2,
         bg: "#bb9df6",
-        assists:0,
+        assists:3,
         position: "Forward"
     },
     {
@@ -31,7 +31,7 @@ const scorerData = [
         player: "Zuraiz",
         matchPlayed: 6,
         Goals: 4,
-        assists:1,
+        assists:2,
         bg: "#afc5ce",
         position: "Forward"
     },
@@ -50,7 +50,7 @@ const scorerData = [
         matchPlayed: 3,
         Goals: 3,
         bg: "#e1ff5c",
-        assists:0,
+        assists:3,
         position: "Mid Fielder"
     },
     {
