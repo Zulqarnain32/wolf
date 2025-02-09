@@ -167,7 +167,7 @@ const HistoryData = [
             day: "Wednesday",
             date: "05-February-2025"
         },
-        matchbetween:"Wolf Academy vs Shaheen FC",
+        matchbetween:"Wolf FC vs Shaheen FC",
 
         starting11: {
             player1: "Usman (K)",
@@ -192,6 +192,39 @@ const HistoryData = [
             assistProviders: [""]
         },
         finalScore: "1 - 2"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "08-February-2025"
+        },
+        matchbetween:"Wolf FC vs Ayyan FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Hamza",
+            player3: "Basit",
+            player4: "Zulqarnain",
+            player5: "Arslan",
+            player6: "Javaid (C)",
+            player7: "Daniyal jr",
+            player8: "Danish",
+            player9: "Zuraiz",
+            player10: "Zeeshan",
+            player11: "Daniyal ",
+                   
+        },
+        substitutions: {
+            player1: "Hassan",
+            player2: "Umair",
+            player3: "Amanullah",
+            player4: "Abu Bakr",
+        },
+        goalScorers: {
+            teamScorers: ["Zulqarnain ⚽️",'Daniya ⚽️', 'Basit (P) ⚽️'],
+            assistProviders: ["Zeeshan 🎯",'Danish 🎯']
+        },
+        finalScore: "3 - 1"
     },
 ]
 
