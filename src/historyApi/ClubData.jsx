@@ -1,148 +1,198 @@
-const scorerData = [
+const HistoryData = [
     {
-        id: 1,
-        player: "Zeeshan",
-        matchPlayed: 6,
-        Goals: 2,
-        bg: "#f1b18c",
-        assists:2,
-        position: "Forward"
-    },
-    {
-        id: 2,
-        player: "Arslan",
-        matchPlayed: 6,
-        Goals: 2,
-        bg: "#bb9df6",
-        assists:3,
-        position: "Forward"
-    },
-    {
-        id: 3,
-        player: "Zulqarnain",
-        matchPlayed: 7,
-        Goals: 2,
-        assists:0,
-        bg: "#f6e562",
-        position: "Mid Fielder"
-    },
-    {
-        id: 4,
-        player: "Zuraiz",
-        matchPlayed: 7,
-        Goals: 4,
-        assists:2,
-        bg: "#afc5ce",
-        position: "Forward"
-    },
-    {
-        id: 5,
-        player: "Hassan",
-        matchPlayed: 7,
-        Goals: 2,
-        bg: "#1de8a1",
-        assists:0,
-        position: "Forward"
-    },
-    {
-        id: 6,
-        player: "Danish",
-        matchPlayed: 4,
-        Goals: 3,
-        bg: "#e1ff5c",
-        assists:4,
-        position: "Mid Fielder"
-    },
-    {
-        id: 7,
-        player: "Sanaullah",
-        matchPlayed: 1,
-        Goals: 0,
-        bg: "aquamarine",
-        assists:0,
-        position: "Mid Fielder"
-    },
-    {
-        id: 8,
-        player: "Daniyal",
-        matchPlayed: 2,
-        Goals: 1,
-        bg: "#87e1ff",
-        assists:0,
-        position: "Mid Fielder"
-    },
-    {
-        id: 9,
-        player: "Atique",
-        matchPlayed: 3,
-        Goals: 0,
-        bg: "#70e774",
-        assists:0,
-        position: "Defender"
-    },
-    {
-        id: 10,
-        player: "Umair",
-        matchPlayed: 5,
-        Goals: 0,
-        assists:0,
-        bg: "#c7b9ee",
-        position: "All Ruunder"
-    },
-    {
-        id: 11,
-        player: "Bilal",
-        Goals: 0,
-        matchPlayed: 0,
-        assists:0,
-        bg: "#f5abe5",
-        position: "Keeper"
-    },
-    {
-        id: 12,
-        player: "Javaid",
-        matchPlayed: 7,
-        Goals: 0,
-        bg: "#61dd87",
-        assists:0,
-        position: "Defender"
-    },
-    {
-        id: 13,
-        player: "Basit",
-        matchPlayed: 4,
-        Goals: 1,
-        bg: "#87d0f2",
-        assists:0,
-        position: "Defender"
-    },
-    {
-        id: 14,
-        player: "Amanullah",
-        Goals: 0,
-        matchPlayed: 6,
-        assists:0,
-        bg: "#d79999",
-        position: "Defender"
-    },
-    {
-        id: 15,
-        player: "Daniyal Jr",
-        Goals: 0,
-        matchPlayed: 1,
-        assists:0,
-        bg: "#2094c2",
-        position: "Defender"
-    },
-    {
-        id: 16,
-        player: "Hamza ",
-        matchPlayed: 6,
-        Goals: 0,
-        assists:0,
-        bg: "#7ec774",
-        position: "Defender"
-    }
-];
+        timeStamp: {
+            day: "Sunday",
+            date: "05-January-2025"
+        },
+        matchbetween:"Wolf FC vs Commtel FC",
 
-export default scorerData;
+        starting11: {
+            player1: "Abdul Rehman",
+            player2: "Basit",
+            player3: "Zulqarnain",
+            player4: "Arslan",
+            player5: "Javiad (C)",
+            player6: "Ali",
+            player7: "Atique",
+            player8: "Zuraiz",
+            player9: "Hassan",
+            player10: "Umar",
+            player11: "Usman (K)",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Zeeshan",
+            player3: "Abu Bakr",
+            player4: "Umair",
+            player5: "Hamza",
+            player6: "Haider",
+            player7: "Daniyal jr",
+        },
+        goalScorers: {
+            teamScorers: ['Ali ⚽️','Arslan ⚽️',],
+            assistProviders: ['Zuraiz 🎯']
+        },
+        finalScore: "2 - 4"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "12-January-2025"
+        },
+        matchbetween:"Wolf FC vs Young Pathan",
+        starting11: {
+            player1: "Umar",
+            player2: "Amanullah",
+            player3: "Zulqarnain",
+            player4: "Hamza",
+            player5: "Javiad (C)",
+            player6: "Waqas",
+            player7: "Ali",
+            player8: "Zuraiz",
+            player9: "Hassan",
+            player10: "Arslan",
+            player11: "Usman (K)",
+                   
+        },
+        substitutions: {
+            player1: "Zeeshan",
+            player2: "Abu Bakr",
+            player3: "Abdullah",
+            player4: "Bhaya",
+          
+           
+        },
+        goalScorers: {
+            teamScorers: ['Own Goal ⚽️'],
+            assistProviders: ['']
+
+        },
+        finalScore: "1 - 3"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "19-January-2025"
+        },
+        matchbetween:"Wolf FC vs Inferno FC",
+        starting11: {
+            player1: "Bhaya",
+            player2: "Abu Bakr",
+            player3: "Zulqarnain",
+            player4: "Danish",
+            player5: "Javiad (C)",
+            player6: "Amanullah",
+            player7: "Atique",
+            player8: "Zuraiz",
+            player9: "Hassan",
+            player10: "Zeeshan",
+            player11: "Usman (K)",
+                   
+        },
+        substitutions: {
+            player1: "Huzafa",
+     
+        },
+        goalScorers: {
+            teamScorers: ['Zeeshan ⚽️⚽️','Danish ⚽️⚽️','Hassan ⚽️','Zuraiz ⚽️' ],
+            assistProviders: ['Bhaya 🎯🎯','Danish 🎯','Zuraiz 🎯']
+
+        },
+        finalScore: "6 - 3"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "26-January-2025"
+        },
+        matchbetween:"Wolf FC vs Kashmir FC",
+        starting11: {
+            player1: "Hamza",
+            player2: "Basit",
+            player3: "Zulqarnain",
+            player4: "Arslan",
+            player5: "Javiad (C)",
+            player6: "Abu Bakr",
+            player7: "Zeeshan",
+            player8: "Zuraiz",
+            player9: "Danish",
+            player10: "Umair (K)",
+            player11: "Umar",
+                   
+        },
+        substitutions: {
+            player1: "Hassan",   
+        },
+        goalScorers: {
+            teamScorers: ['Zuraiz ⚽️⚽️⚽️','Arslan ⚽️','Zulqarnain ⚽️','Danish ⚽️'],
+            assistProviders: ['Danish 🎯🎯','Arslan 🎯🎯🎯','Zeeshan 🎯']
+        },
+        finalScore: "6 - 3"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "02-February-2025"
+        },
+        matchbetween:"Wolf FC vs Mama FC",
+        starting11: {
+            player1: "Wahab",
+            player2: "Basit",
+            player3: "Zulqarnain",
+            player4: "Arslan",
+            player5: "Javiad (C)",
+            player6: "Umar",
+            player7: "Sanaullah",
+            player8: "Zuraiz",
+            player9: "Danish",
+            player10: "Usman (K)",
+            player11: "Hassan",
+                   
+        },
+        substitutions: {
+            player1: "Hamza",   
+            player2: "Umair",   
+            player3: "Amanullah",   
+            player4: "Daniyal",   
+        },
+        goalScorers: {
+            teamScorers: [''],
+            assistProviders: ['']
+        },
+        finalScore: "0 - 2"
+    },
+    {
+        timeStamp: {
+            day: "Wednesday",
+            date: "05-February-2025"
+        },
+        matchbetween:"Wolf Academy vs Shaheen FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Hamza",
+            player3: "Wahab",
+            player4: "Zulqarnain",
+            player5: "Umair",
+            player6: "Javaid (C)",
+            player7: "Zain",
+            player8: "Atique",
+            player9: "Zuraiz",
+            player10: "Zeeshan",
+            player11: "Amanullah",
+                   
+        },
+        substitutions: {
+            player1: "Hassan",
+            player2: "Arslan",
+        },
+        goalScorers: {
+            teamScorers: ["Umair ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "1 - 2"
+    },
+]
+
+export default HistoryData
