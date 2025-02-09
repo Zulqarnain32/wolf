@@ -5,11 +5,7 @@ const scorerData = [
         matchPlayed: 6,
         Goals: 2,
         bg: "#f1b18c",
-<<<<<<< HEAD
         assists:2,
-=======
-        assists:1,
->>>>>>> 3004c0f4ccf7ceebba80c0fa7e735d3a965e30c1
         position: "Forward"
     },
     {
