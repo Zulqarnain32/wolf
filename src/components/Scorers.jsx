@@ -53,7 +53,7 @@ const Scorers = () => {
                         <div className="assist-count">
                             <h2 className="light">Assists</h2>
                             {/* <h2 className="color">{player.assists} 🎯</h2> */}
-                            <h2 className="color">N 🎯</h2>
+                            <h2 className="color">{player.assists} 🎯</h2>
                         </div>
                     </div>
                 ))}
