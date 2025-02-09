@@ -20,7 +20,7 @@ const scorerData = [
     {
         id: 3,
         player: "Zulqarnain",
-        matchPlayed: 6,
+        matchPlayed: 7,
         Goals: 2,
         assists:0,
         bg: "#f6e562",
@@ -50,7 +50,7 @@ const scorerData = [
         matchPlayed: 4,
         Goals: 3,
         bg: "#e1ff5c",
-        assists:3,
+        assists:4,
         position: "Mid Fielder"
     },
     {
