@@ -2,7 +2,7 @@ const scorerData = [
     {
         id: 1,
         player: "Zeeshan",
-        matchPlayed: 6,
+        matchPlayed: 7,
         Goals: 2,
         bg: "#f1b18c",
         assists:2,
@@ -11,7 +11,7 @@ const scorerData = [
     {
         id: 2,
         player: "Arslan",
-        matchPlayed: 6,
+        matchPlayed: 7,
         Goals: 2,
         bg: "#bb9df6",
         assists:3,
@@ -38,7 +38,7 @@ const scorerData = [
     {
         id: 5,
         player: "Hassan",
-        matchPlayed: 7,
+        matchPlayed: 8,
         Goals: 2,
         bg: "#1de8a1",
         assists:0,
@@ -47,7 +47,7 @@ const scorerData = [
     {
         id: 6,
         player: "Danish",
-        matchPlayed: 4,
+        matchPlayed: 5,
         Goals: 3,
         bg: "#e1ff5c",
         assists:4,
@@ -65,7 +65,7 @@ const scorerData = [
     {
         id: 8,
         player: "Daniyal",
-        matchPlayed: 2,
+        matchPlayed: 3,
         Goals: 1,
         bg: "#87e1ff",
         assists:0,
@@ -74,7 +74,7 @@ const scorerData = [
     {
         id: 9,
         player: "Atique",
-        matchPlayed: 3,
+        matchPlayed: 4,
         Goals: 0,
         bg: "#70e774",
         assists:0,
@@ -83,7 +83,7 @@ const scorerData = [
     {
         id: 10,
         player: "Umair",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 0,
         assists:0,
         bg: "#c7b9ee",
@@ -110,7 +110,7 @@ const scorerData = [
     {
         id: 13,
         player: "Basit",
-        matchPlayed: 4,
+        matchPlayed: 5,
         Goals: 1,
         bg: "#87d0f2",
         assists:0,
@@ -120,7 +120,7 @@ const scorerData = [
         id: 14,
         player: "Amanullah",
         Goals: 0,
-        matchPlayed: 6,
+        matchPlayed: 7,
         assists:0,
         bg: "#d79999",
         position: "Defender"
@@ -137,7 +137,7 @@ const scorerData = [
     {
         id: 16,
         player: "Hamza ",
-        matchPlayed: 6,
+        matchPlayed: 7,
         Goals: 0,
         assists:0,
         bg: "#7ec774",
