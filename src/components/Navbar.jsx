@@ -39,6 +39,7 @@ const Navbar = () => {
         <Link to="/club" className="nav-element" onClick={closeNav}>Club</Link>
         <Link to="/scorers" className="nav-element" onClick={closeNav}>Scorers</Link>
         <Link to="/academy" className="nav-element" onClick={closeNav}>Academy</Link>
+        <Link to="/chat" className="nav-element" onClick={closeNav}>Chat</Link>
       </div>
     </div>
   );

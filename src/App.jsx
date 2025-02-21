@@ -6,6 +6,7 @@ import Club from './components/Club';
 import Home from './components/Home';
 import './App.css';
 import Academy from './components/Academy';
+import Chat from './components/Chat';
 
 const App = () => {
   const Layout = ({ children }) => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/scorers" element={<Scorers />} />
           <Route path="/club" element={<Club />} />
           <Route path="/academy" element={<Academy />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
       </Layout>
     </BrowserRouter>
