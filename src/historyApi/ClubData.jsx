@@ -196,7 +196,7 @@ const HistoryData = [
     {
         timeStamp: {
             day: "Sunday",
-            date: "08-February-2025"
+            date: "09-February-2025"
         },
         matchbetween:"Wolf FC vs Ayyan FC",
 
@@ -225,6 +225,39 @@ const HistoryData = [
             assistProviders: ["Zeeshan 🎯",'Danish 🎯']
         },
         finalScore: "3 - 1"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "16-February-2025"
+        },
+        matchbetween:"Wolf FC vs Usmania FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Atique",
+            player3: "Basit",
+            player4: "Hamid",
+            player5: "Arslan",
+            player6: "Hassan",
+            player7: "Asif",
+            player8: "Danish",
+            player9: "Kareem Khan",
+            player10: "Zaigam",
+            player11: "Daniyal ",
+                   
+        },
+        substitutions: {
+            player1: "Zeeshan",
+            player2: "Umair",
+            player3: "Amanullah",
+            player4: "Hamza",
+        },
+        goalScorers: {
+            teamScorers: [],
+            assistProviders: []
+        },
+        finalScore: "2 - 0"
     },
 ]
 
