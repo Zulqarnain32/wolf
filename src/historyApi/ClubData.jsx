@@ -257,7 +257,7 @@ const HistoryData = [
             teamScorers: [],
             assistProviders: []
         },
-        finalScore: "2 - 0"
+        finalScore: "0 - 2"
     },
 ]
 
