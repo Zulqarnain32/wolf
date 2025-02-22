@@ -459,3 +459,7 @@ textarea{
   font-size: 20px;
 
 }
+.hint{
+  margin: 10px auto;
+  width: 90%;
+}

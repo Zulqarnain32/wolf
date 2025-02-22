@@ -6,17 +6,29 @@ const Chat = () => {
   const [responseText, setResponseText] = useState("");
 
   const scorerData = [
-    { id: 1, player: "Zeeshan", matchPlayed: 7, Goals: 2, assists: 2, position: "Forward" },
-    { id: 2, player: "Arslan", matchPlayed: 7, Goals: 2, assists: 3, position: "Forward" },
-    { id: 3, player: "Zulqarnain", matchPlayed: 7, Goals: 2, assists: 0, position: "Mid Fielder" },
-    { id: 4, player: "Zuraiz", matchPlayed: 7, Goals: 4, assists: 2, position: "Forward" },
+    { player: "Zeeshan", matchPlayed: 7, Goals: 2, assists: 2, position: "Forward" },
+    { player: "Arslan", matchPlayed: 7, Goals: 2, assists: 3, position: "Forward" },
+    { player: "Zulqarnain", matchPlayed: 7, Goals: 2, assists: 0, position: "Mid Fielder" },
+    { player: "Zuraiz", matchPlayed: 7, Goals: 4, assists: 2, position: "Forward" },
+    { player: "Hassan", matchPlayed: 8, Goals: 2, assists: 0, position: "Forward" },
+    { player: "Danish", matchPlayed: 5, Goals: 3, assists: 4, position: "Mid Fielder" },
+    { player: "Sanaullah", matchPlayed: 1, Goals: 0, assists: 0, position: "Mid Fielder" },
+    { player: "Daniyal", matchPlayed: 3, Goals: 1, assists: 0, position: "Mid Fielder" },
+    { player: "Atique", matchPlayed: 4, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Umair", matchPlayed: 6, Goals: 0, assists: 0, position: "Menu v ni pta" },
+    { player: "Bilal", Goals: 0, matchPlayed: 0, assists: 0, position: "Keeper" },
+    { player: "Javaid", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Basit", matchPlayed: 5, Goals: 1, assists: 0, position: "Defender" },
+    { player: "Amanullah", Goals: 0, matchPlayed: 7, assists: 0, position: "Defender" },
+    { player: "Daniyal Jr", Goals: 0, matchPlayed: 1, assists: 0, position: "Defender" },
+    { player: "Hamza", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" }
   ];
 
   async function generateAnswer() {
     console.log("loading...");
     try {
       const context = `Here is the football player stats:\n${scorerData
-        .map(player => `${player.player}: ${player.Goals} goals in ${player.matchPlayed} matches.`)
+        .map(player => `${player.player}: ${player.Goals} goals in ${player.matchPlayed} matches. ${player.assists} assists, playing as a ${player.position}.`)
         .join("\n")}`;
 
       const response = await axios({
@@ -43,7 +55,8 @@ const Chat = () => {
 
   return (
     <div>
-     <h2 className="ask">Ask any Question</h2>
+     <h2 className="ask">Ask About Any Player' Stats</h2>
+     <p className="hint">Hint: Ask about player goals</p>
       <textarea value={question} onChange={(e) => setQuestion(e.target.value)} />
       <br />
       <button className ="ansbutton" onClick={generateAnswer}>Get Response</button>
