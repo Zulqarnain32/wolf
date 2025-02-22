@@ -21,14 +21,28 @@ const Chat = () => {
     { player: "Basit", matchPlayed: 5, Goals: 1, assists: 0, position: "Defender" },
     { player: "Amanullah", Goals: 0, matchPlayed: 7, assists: 0, position: "Defender" },
     { player: "Daniyal Jr", Goals: 0, matchPlayed: 1, assists: 0, position: "Defender" },
-    { player: "Hamza", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" }
+    { player: "Hamza", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" },
+    { captain: "Javaid",clubName:"Wolf Fc",founded:2021,clubMatches:8,wins:3,lost:5,draw:0, teamScored:19,teamConceded:20 }
   ];
 
   async function generateAnswer() {
     console.log("loading...");
     try {
       const context = `Here is the football player stats:\n${scorerData
-        .map(player => `${player.player}: ${player.Goals} goals in ${player.matchPlayed} matches. ${player.assists} assists, playing as a ${player.position}.`)
+        .map(player =>
+           `${player.player}: ${player.Goals}
+            goals in ${player.matchPlayed}
+            matches. ${player.assists}
+            assists, playing as a ${player.position}, 
+            captain is ${player.captain}, 
+            club name is ${player.clubName}, 
+            "club founded in ${2021},
+            club played matches ${player.clubMatches}, 
+            Matches won ${player.wins}, 
+            Matches lost ${player.lost}, 
+            Matches Draw ${player.draw} 
+            team scored goals ${player.teamScored}, 
+            team conceded goals ${player.teamConceded}`)
         .join("\n")}`;
 
       const response = await axios({
@@ -55,7 +69,7 @@ const Chat = () => {
 
   return (
     <div>
-     <h2 className="ask">Ask About Any Player' Stats</h2>
+     <h2 className="ask">Ask About Team &`` Player' Stats</h2>
      <p className="hint">Hint: Ask about player goals</p>
       <textarea value={question} onChange={(e) => setQuestion(e.target.value)} />
       <br />
