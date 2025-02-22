@@ -448,7 +448,8 @@ textarea{
   margin: 0px auto;
   font-size: 20px;
   border-radius: 5px;
-  padding: 10px 13px;
+  height: 40px;
+  width: 140px;
   border: none;
   background-color: var(--main-color);
   color: var(--text-color);

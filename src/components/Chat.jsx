@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
+import BarLoader from "react-spinners/BarLoader"; 
 
 const Chat = () => {
   const [question, setQuestion] = useState("");
   const [responseText, setResponseText] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const scorerData = [
     { player: "Zeeshan", matchPlayed: 7, Goals: 2, assists: 2, position: "Forward" },
@@ -27,6 +29,8 @@ const Chat = () => {
 
   async function generateAnswer() {
     console.log("loading...");
+    setQuestion("")
+    setLoading(true)
     try {
       const context = `Here is the football player stats:\n${scorerData
         .map(player =>
@@ -64,17 +68,32 @@ const Chat = () => {
     } catch (error) {
       console.error("Error fetching answer:", error);
       setResponseText("Failed to generate an answer.");
+    } finally {
+      setLoading(false); // Hide loader
     }
   }
 
   return (
     <div>
-     <h2 className="ask">Ask About Team &`` Player' Stats</h2>
+     <h2 className="ask">Ask About Team & Player's Stats</h2>
      <p className="hint">Hint: Ask about player goals</p>
       <textarea value={question} onChange={(e) => setQuestion(e.target.value)} />
       <br />
-      <button className ="ansbutton" onClick={generateAnswer}>Get Response</button>
-      <h2 ></h2>
+      {/* <button className ="ansbutton" onClick={generateAnswer}>Get Response</button> */}
+      <button 
+  className="ansbutton" 
+  onClick={generateAnswer} 
+  disabled={loading} 
+  style={{
+    display: "flex", 
+    justifyContent: "center", 
+    alignItems: "center", 
+    width: "150px",  
+    height: "40px",  
+  }}
+>
+  {loading ? <BarLoader color="#fff" width={80} height={4} /> : "Get Response"}
+</button>
       <p className="ans">{responseText}</p>
     </div>
   );
