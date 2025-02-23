@@ -6,7 +6,7 @@ const Home = () => {
       <div className="team-reports">
         <div className="goals-count mt">
           <h2>Matched  Played</h2>
-          <h2>8</h2>
+          <h2>9</h2>
         </div>
         <div className="goals-count mt">
           <h2>Wins </h2>
@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="goals-count mt">
           <h2>Lost</h2>
-          <h2>5</h2>
+          <h2>6</h2>
         </div>
         <div className="goals-count mt">
           <h2>draw</h2>
@@ -22,15 +22,15 @@ const Home = () => {
         </div>
         <div className="goals-count mt">
           <h2>Goal Scored</h2>
-          <h2>19</h2>
+          <h2>21</h2>
         </div>
         <div className="goals-count mt">
           <h2>Goal Conceded</h2>
-          <h2>20</h2>
+          <h2>23</h2>
         </div>
         <div className="goals-count mt">
           <h2>Goal Difference</h2>
-          <h2>-1</h2>
+          <h2>-2</h2>
         </div>
       </div>
     </>
