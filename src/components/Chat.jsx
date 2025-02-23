@@ -40,7 +40,7 @@ const Chat = () => {
             assists, playing as a ${player.position}, 
             captain is ${player.captain}, 
             club name is ${player.clubName}, 
-            "club founded in ${2021},
+            "club founded in ${player.founded},
             club played matches ${player.clubMatches}, 
             Matches won ${player.wins}, 
             Matches lost ${player.lost}, 
