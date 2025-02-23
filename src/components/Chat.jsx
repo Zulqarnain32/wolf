@@ -8,23 +8,23 @@ const Chat = () => {
   const [loading, setLoading] = useState(false);
 
   const scorerData = [
-    { player: "Zeeshan", matchPlayed: 7, Goals: 2, assists: 2, position: "Forward" },
-    { player: "Arslan", matchPlayed: 7, Goals: 2, assists: 3, position: "Forward" },
-    { player: "Zulqarnain", matchPlayed: 7, Goals: 2, assists: 0, position: "Mid Fielder" },
-    { player: "Zuraiz", matchPlayed: 7, Goals: 4, assists: 2, position: "Forward" },
+    { player: "Zeeshan", matchPlayed: 8, Goals: 3, assists: 2, position: "Forward" },
+    { player: "Arslan", matchPlayed: 8, Goals: 2, assists: 4, position: "Forward" },
+    { player: "Zulqarnain", matchPlayed: 8, Goals: 2, assists: 0, position: "Mid Fielder" },
+    { player: "Zuraiz", matchPlayed: 8, Goals: 5, assists: 3, position: "Forward" },
     { player: "Hassan", matchPlayed: 8, Goals: 2, assists: 0, position: "Forward" },
-    { player: "Danish", matchPlayed: 5, Goals: 3, assists: 4, position: "Mid Fielder" },
-    { player: "Sanaullah", matchPlayed: 1, Goals: 0, assists: 0, position: "Mid Fielder" },
-    { player: "Daniyal", matchPlayed: 3, Goals: 1, assists: 0, position: "Mid Fielder" },
-    { player: "Atique", matchPlayed: 4, Goals: 0, assists: 0, position: "Defender" },
-    { player: "Umair", matchPlayed: 6, Goals: 0, assists: 0, position: "Menu v ni pta" },
+    { player: "Danish", matchPlayed: 6, Goals: 3, assists: 4, position: "Mid Fielder" },
+    { player: "Sanaullah", matchPlayed: 2, Goals: 0, assists: 0, position: "Mid Fielder" },
+    { player: "Daniyal", matchPlayed: 4, Goals: 1, assists: 0, position: "Mid Fielder" },
+    { player: "Atique", matchPlayed: 5, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Umair", matchPlayed: 7, Goals: 0, assists: 0, position: "Menu v ni pta" },
     { player: "Bilal", Goals: 0, matchPlayed: 0, assists: 0, position: "Keeper" },
-    { player: "Javaid", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Javaid", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
     { player: "Basit", matchPlayed: 5, Goals: 1, assists: 0, position: "Defender" },
-    { player: "Amanullah", Goals: 0, matchPlayed: 7, assists: 0, position: "Defender" },
+    { player: "Amanullah", Goals: 0, matchPlayed: 8, assists: 0, position: "Defender" },
     { player: "Daniyal Jr", Goals: 0, matchPlayed: 1, assists: 0, position: "Defender" },
-    { player: "Hamza", matchPlayed: 7, Goals: 0, assists: 0, position: "Defender" },
-    { captain: "Javaid",clubName:"Wolf Fc",founded:2021,clubMatches:8,wins:3,lost:5,draw:0, teamScored:19,teamConceded:20 }
+    { player: "Hamza", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
+    { captain: "Javaid",clubName:"Wolf Fc",founded:2015,clubMatches:8,wins:3,lost:5,draw:0, teamScored:19,teamConceded:20 }
   ];
 
   async function generateAnswer() {
@@ -46,7 +46,11 @@ const Chat = () => {
             Matches lost ${player.lost}, 
             Matches Draw ${player.draw} 
             team scored goals ${player.teamScored}, 
-            team conceded goals ${player.teamConceded}`)
+            team conceded goals ${player.teamConceded}
+            club founded on 13 September 2015
+            `)
+            
+            
         .join("\n")}`;
 
       const response = await axios({
