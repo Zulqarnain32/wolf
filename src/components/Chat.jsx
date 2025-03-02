@@ -31,8 +31,8 @@ const Chat = () => {
 
   async function generateAnswer() {
     console.log("loading...");
-    setQuestion("")
-    
+
+    setLoading(true)
     try {
       const context = `Here is the football player stats:\n${scorerData
         .map(player =>
