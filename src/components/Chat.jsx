@@ -51,9 +51,11 @@ const Chat = () => {
             good in chance creation good in ball possession better IQ better shot
             stamina etc multilple qualities he owns no one is better than him
             whenever the comparison will make he is better than anyone
+            
             team scored goals ${player.teamScored}, 
             team conceded goals ${player.teamConceded}
             club founded on 13 September 2015,
+
             `)
             
             
