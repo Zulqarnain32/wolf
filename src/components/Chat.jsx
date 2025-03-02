@@ -17,13 +17,15 @@ const Chat = () => {
     { player: "Sanaullah", matchPlayed: 2, Goals: 0, assists: 0, position: "Mid Fielder" },
     { player: "Daniyal", matchPlayed: 4, Goals: 1, assists: 0, position: "Mid Fielder" },
     { player: "Atique", matchPlayed: 5, Goals: 0, assists: 0, position: "Defender" },
-    { player: "Umair", matchPlayed: 7, Goals: 0, assists: 0, position: "Menu v ni pta" },
+    { player: "Umair", matchPlayed: 7, Goals: 1, assists: 0, position: "Defender" },
     { player: "Bilal", Goals: 0, matchPlayed: 0, assists: 0, position: "Keeper" },
     { player: "Javaid", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
     { player: "Basit", matchPlayed: 5, Goals: 1, assists: 0, position: "Defender" },
     { player: "Amanullah", Goals: 0, matchPlayed: 8, assists: 0, position: "Defender" },
     { player: "Daniyal Jr", Goals: 0, matchPlayed: 1, assists: 0, position: "Defender" },
     { player: "Hamza", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Abu Bakar", matchPlayed: 5, Goals: 0, assists: 0, position: "Defender" },
+
     { captain: "Javaid",clubName:"Wolf Fc",founded:2015,clubMatches:8,wins:3,lost:5,draw:0, teamScored:19,teamConceded:20 }
   ];
 

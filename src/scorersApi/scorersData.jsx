@@ -84,10 +84,10 @@ const scorerData = [
         id: 10,
         player: "Umair",
         matchPlayed: 7,
-        Goals: 0,
+        Goals: 1,
         assists:0,
         bg: "#c7b9ee",
-        position: "Menu v ni pta"
+        position: "Defender"
     },
     {
         id: 11,
@@ -142,7 +142,17 @@ const scorerData = [
         assists:0,
         bg: "#7ec774",
         position: "Defender"
+    },
+    {
+        id: 17,
+        player: "Abu Bakar ",
+        matchPlayed: 5,
+        Goals: 0,
+        assists:0,
+        bg: "#95e272",
+        position: "Defender"
     }
+
 ];
 
 export default scorerData;
