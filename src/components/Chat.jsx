@@ -8,23 +8,24 @@ const Chat = () => {
   const [loading, setLoading] = useState(false);
 
   const scorerData = [
-    { player: "Zeeshan", matchPlayed: 8, Goals: 3, assists: 2, position: "Forward" },
-    { player: "Arslan", matchPlayed: 8, Goals: 2, assists: 4, position: "Forward" },
-    { player: "Zulqarnain", matchPlayed: 8, Goals: 2, assists: 0, position: "Mid Fielder" },
-    { player: "Zuraiz", matchPlayed: 8, Goals: 5, assists: 3, position: "Forward" },
-    { player: "Hassan", matchPlayed: 8, Goals: 2, assists: 0, position: "Forward" },
-    { player: "Danish", matchPlayed: 6, Goals: 3, assists: 4, position: "Mid Fielder" },
+    { player: "Zeeshan", matchPlayed:11, Goals: 5, assists: 2, position: "Forward" },
+    { player: "Arslan", matchPlayed:11, Goals: 2, assists: 4, position: "Forward" },
+    { player: "Zulqarnain", matchPlayed: 12, Goals: 3, assists: 0, position: "Mid Fielder" },
+    { player: "Zuraiz", matchPlayed: 12, Goals: 6, assists: 3, position: "Forward" },
+    { player: "Hassan", matchPlayed: 12, Goals: 2, assists: 0, position: "Forward" },
+    { player: "Danish", matchPlayed: 10, Goals: 4, assists: 7, position: "Mid Fielder" },
     { player: "Sanaullah", matchPlayed: 2, Goals: 0, assists: 0, position: "Mid Fielder" },
-    { player: "Daniyal", matchPlayed: 4, Goals: 1, assists: 0, position: "Mid Fielder" },
+    { player: "Daniyal", matchPlayed: 8, Goals: 1, assists: 1, position: "Mid Fielder" },
     { player: "Atique", matchPlayed: 5, Goals: 0, assists: 0, position: "Defender" },
-    { player: "Umair", matchPlayed: 7, Goals: 1, assists: 0, position: "Defender" },
-    { player: "Bilal", Goals: 0, matchPlayed: 0, assists: 0, position: "Keeper" },
-    { player: "Javaid", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
-    { player: "Basit", matchPlayed: 5, Goals: 1, assists: 0, position: "Defender" },
-    { player: "Amanullah", Goals: 0, matchPlayed: 8, assists: 0, position: "Defender" },
+    { player: "Umair", matchPlayed: 11, Goals: 1, assists: 0, position: "Defender" },
+    { player: "Bilal", Goals: 0, matchPlayed: 1, assists: 0, position: "Keeper" },
+    { player: "Javaid", matchPlayed: 10, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Basit", matchPlayed: 8, Goals: 3, assists: 0, position: "Defender" },
+    { player: "Amanullah", Goals: 0, matchPlayed: 9, assists: 0, position: "Defender" },
     { player: "Daniyal Jr", Goals: 0, matchPlayed: 1, assists: 0, position: "Defender" },
-    { player: "Hamza", matchPlayed: 8, Goals: 0, assists: 0, position: "Defender" },
-    { player: "Abu Bakar", matchPlayed: 5, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Hamza", matchPlayed: 10, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Abu Bakar", matchPlayed: 6, Goals: 0, assists: 0, position: "Defender" },
+    { player: "Hammad", matchPlayed: 2, Goals: 1, assists: 0, position: "Defender" },
 
     { captain: "Javaid",clubName:"Wolf Fc",founded:2015,clubMatches:8,wins:3,lost:5,draw:0, teamScored:19,teamConceded:20 }
   ];
@@ -47,7 +48,8 @@ const Chat = () => {
             Matches won ${player.wins}, 
             Matches lost ${player.lost}, 
             Matches Draw ${player.draw} 
-            better player is zulqarnain because he is good playmaker
+            better player is zulqarnain because he has created chances more than everyone 
+            zeeshan and zuraiz was unable to finish zulqarnain's pass thats why he has less assists he is good playmaker
             good in chance creation good in ball possession better IQ better shot
             stamina etc multilple qualities he owns no one is better than him
             whenever the comparison will make he is better than anyone

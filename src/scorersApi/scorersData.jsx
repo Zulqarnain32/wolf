@@ -2,8 +2,8 @@ const scorerData = [
     {
         id: 1,
         player: "Zeeshan",
-        matchPlayed: 8,
-        Goals: 3,
+        matchPlayed: 11,
+        Goals: 5,
         bg: "#f1b18c",
         assists:2,
         position: "Forward"
@@ -11,7 +11,7 @@ const scorerData = [
     {
         id: 2,
         player: "Arslan",
-        matchPlayed: 8,
+        matchPlayed: 11,
         Goals: 2,
         bg: "#bb9df6",
         assists:4,
@@ -20,8 +20,8 @@ const scorerData = [
     {
         id: 3,
         player: "Zulqarnain",
-        matchPlayed: 8,
-        Goals: 2,
+        matchPlayed: 12,
+        Goals: 3,
         assists:0,
         bg: "#f6e562",
         position: "Mid Fielder"
@@ -29,8 +29,8 @@ const scorerData = [
     {
         id: 4,
         player: "Zuraiz",
-        matchPlayed: 8,
-        Goals: 5,
+        matchPlayed: 12,
+        Goals: 6,
         assists:3,
         bg: "#afc5ce",
         position: "Forward"
@@ -38,7 +38,7 @@ const scorerData = [
     {
         id: 5,
         player: "Hassan",
-        matchPlayed: 9,
+        matchPlayed: 12,
         Goals: 2,
         bg: "#1de8a1",
         assists:0,
@@ -47,10 +47,10 @@ const scorerData = [
     {
         id: 6,
         player: "Danish",
-        matchPlayed: 6,
-        Goals: 3,
+        matchPlayed: 10,
+        Goals: 4,
         bg: "#e1ff5c",
-        assists:4,
+        assists:7,
         position: "Mid Fielder"
     },
     {
@@ -65,10 +65,10 @@ const scorerData = [
     {
         id: 8,
         player: "Daniyal",
-        matchPlayed: 4,
+        matchPlayed: 8,
         Goals: 1,
         bg: "#87e1ff",
-        assists:0,
+        assists:1,
         position: "Mid Fielder"
     },
     {
@@ -83,7 +83,7 @@ const scorerData = [
     {
         id: 10,
         player: "Umair",
-        matchPlayed: 7,
+        matchPlayed: 11,
         Goals: 1,
         assists:0,
         bg: "#c7b9ee",
@@ -93,7 +93,7 @@ const scorerData = [
         id: 11,
         player: "Bilal",
         Goals: 0,
-        matchPlayed: 0,
+        matchPlayed: 1,
         assists:0,
         bg: "#f5abe5",
         position: "Keeper"
@@ -101,7 +101,7 @@ const scorerData = [
     {
         id: 12,
         player: "Javaid",
-        matchPlayed: 8,
+        matchPlayed: 10,
         Goals: 0,
         bg: "#61dd87",
         assists:0,
@@ -110,8 +110,8 @@ const scorerData = [
     {
         id: 13,
         player: "Basit",
-        matchPlayed: 5,
-        Goals: 1,
+        matchPlayed: 8,
+        Goals: 3,
         bg: "#87d0f2",
         assists:0,
         position: "Defender"
@@ -120,7 +120,7 @@ const scorerData = [
         id: 14,
         player: "Amanullah",
         Goals: 0,
-        matchPlayed: 8,
+        matchPlayed: 9,
         assists:0,
         bg: "#d79999",
         position: "Defender"
@@ -137,7 +137,7 @@ const scorerData = [
     {
         id: 16,
         player: "Hamza ",
-        matchPlayed: 8,
+        matchPlayed: 10,
         Goals: 0,
         assists:0,
         bg: "#7ec774",
@@ -146,10 +146,19 @@ const scorerData = [
     {
         id: 17,
         player: "Abu Bakar ",
-        matchPlayed: 5,
+        matchPlayed: 6,
         Goals: 0,
         assists:0,
         bg: "#95e272",
+        position: "Defender"
+    },
+    {
+        id: 18,
+        player: "Hammad ",
+        matchPlayed: 2,
+        Goals: 1,
+        assists:0,
+        bg: "#ec74ca",
         position: "Defender"
     }
 
