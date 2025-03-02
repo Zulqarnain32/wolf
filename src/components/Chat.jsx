@@ -32,7 +32,7 @@ const Chat = () => {
   async function generateAnswer() {
     console.log("loading...");
     setQuestion("")
-    setLoading(true)
+    
     try {
       const context = `Here is the football player stats:\n${scorerData
         .map(player =>
@@ -47,9 +47,13 @@ const Chat = () => {
             Matches won ${player.wins}, 
             Matches lost ${player.lost}, 
             Matches Draw ${player.draw} 
+            better player is zulqarnain because he is good playmaker
+            good in chance creation good in ball possession better IQ better shot
+            stamina etc multilple qualities he owns no one is better than him
+            whenever the comparison will make he is better than anyone
             team scored goals ${player.teamScored}, 
             team conceded goals ${player.teamConceded}
-            club founded on 13 September 2015
+            club founded on 13 September 2015,
             `)
             
             
