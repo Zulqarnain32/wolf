@@ -264,7 +264,7 @@ const HistoryData = [
             day: "Sunday",
             date: "23-February-2025"
         },
-        matchbetween:"Wolf FC vs Usmania FC",
+        matchbetween:"Wolf FC vs Sabzazar FC",
 
         starting11: {
             player1: "Usman (K)",

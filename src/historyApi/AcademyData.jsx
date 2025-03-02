@@ -97,6 +97,38 @@ const AcademyData = [
         },
         finalScore: "0 - 4"
     },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "23-February-2025"
+        },
+        matchbetween:"Wolf Academy vs Kashmir FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Hammad",
+            player3: "Umair",
+            player4: "Daniyal ",
+            player5: "Sanaullah",
+            player6: "Danish (C)",
+            player7: "Hassan",
+            player8: "Amanullah",
+            player9: "Zuraiz",
+            player10: "Zeeshan",
+            player11: "Hamza",
+                   
+        },
+        substitutions: {
+            player1: "Javaid",
+            player2: "Zulqarnain",
+            player3: "Arslan",
+        },
+        goalScorers: {
+            teamScorers: ["Hammad ⚽️","Zeeshan ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "2 - 5"
+    },
 
 ]
 
