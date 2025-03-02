@@ -53,6 +53,9 @@ const Chat = () => {
             good in chance creation good in ball possession better IQ better shot
             stamina etc multilple qualities he owns no one is better than him
             whenever the comparison will make he is better than anyone
+            and worst player of our team is zeeshan because he miss too many chances
+            koli mai daal kr do phir b miss kr deta
+            he cannot even control the ball 
             
             team scored goals ${player.teamScored}, 
             team conceded goals ${player.teamConceded}
