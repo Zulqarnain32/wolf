@@ -292,6 +292,39 @@ const HistoryData = [
         },
         finalScore: "2 - 3"
     },
+    {
+        timeStamp: {
+            day: "Tuesday",
+            date: "11-March-2025"
+        },
+        matchbetween:"Wolf FC vs AL Faisal FC",
+
+        starting11: {
+            player1: "Raza (K)",
+            player2: "Atique",
+            player3: "Baist",
+            player4: "Amanullah",
+            player5: "Arslan",
+            player6: "Javaid",
+            player7: "Umar",
+            player8: "Danish",
+            player9: "Zuraiz",
+            player10: "Zeeshan",
+            player11: "Daniyal",
+                   
+        },
+        substitutions: {
+            player1: "Bakar",
+            player2: "Umair",
+            player3: "Hamza",
+            player4: "Hassan",
+        },
+        goalScorers: {
+            teamScorers: ["Umar ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "1 - 3"
+    },
 ]
 
 export default HistoryData

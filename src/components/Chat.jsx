@@ -51,7 +51,7 @@ const Chat = () => {
             better player is zulqarnain because he has created chances more than everyone 
             zeeshan and zuraiz was unable to finish zulqarnain's pass thats why he has less assists he is good playmaker
             good in chance creation good in ball possession better IQ better shot
-            stamina etc multilple qualities he owns no one is better than him
+            stamina etc multilple qualities he owns and no one is better than him
             whenever the comparison will make he is better than anyone
             and worst player of our team is zeeshan because he miss too many chances
             koli mai daal kr do phir b miss kr deta

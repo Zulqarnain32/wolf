@@ -7,6 +7,7 @@ import Home from './components/Home';
 import './App.css';
 import Academy from './components/Academy';
 import Chat from './components/Chat';
+import Accordion from './components/Accordion';
 
 const App = () => {
   const Layout = ({ children }) => {
@@ -27,6 +28,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/accordion" element={<Accordion />} />
           <Route path="/scorers" element={<Scorers />} />
           <Route path="/club" element={<Club />} />
           <Route path="/academy" element={<Academy />} />
