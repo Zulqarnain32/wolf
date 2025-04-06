@@ -2,8 +2,8 @@ const scorerData = [
     {
         id: 1,
         player: "Zeeshan",
-        matchPlayed: 12,
-        Goals: 5,
+        matchPlayed: 13,
+        Goals: 6,
         bg: "#f1b18c",
         assists:2,
         position: "Forward"
@@ -11,16 +11,16 @@ const scorerData = [
     {
         id: 2,
         player: "Arslan",
-        matchPlayed: 12,
+        matchPlayed: 13,
         Goals: 2,
         bg: "#bb9df6",
-        assists:4,
+        assists:5,
         position: "Forward"
     },
     {
         id: 3,
         player: "Zulqarnain",
-        matchPlayed: 12,
+        matchPlayed: 13,
         Goals: 3,
         assists:0,
         bg: "#f6e562",
@@ -29,8 +29,8 @@ const scorerData = [
     {
         id: 4,
         player: "Zuraiz",
-        matchPlayed: 13,
-        Goals: 6,
+        matchPlayed: 14,
+        Goals: 7,
         assists:3,
         bg: "#afc5ce",
         position: "Forward"
@@ -47,8 +47,8 @@ const scorerData = [
     {
         id: 6,
         player: "Danish",
-        matchPlayed: 11,
-        Goals: 4,
+        matchPlayed: 12,
+        Goals: 5,
         bg: "#e1ff5c",
         assists:7,
         position: "Mid Fielder"
@@ -65,10 +65,10 @@ const scorerData = [
     {
         id: 8,
         player: "Daniyal",
-        matchPlayed: 9,
+        matchPlayed: 10,
         Goals: 1,
         bg: "#87e1ff",
-        assists:1,
+        assists:2,
         position: "Mid Fielder"
     },
     {
@@ -101,7 +101,7 @@ const scorerData = [
     {
         id: 12,
         player: "Javaid",
-        matchPlayed: 11,
+        matchPlayed: 12,
         Goals: 0,
         bg: "#61dd87",
         assists:0,
@@ -110,7 +110,7 @@ const scorerData = [
     {
         id: 13,
         player: "Basit",
-        matchPlayed: 9,
+        matchPlayed: 10,
         Goals: 3,
         bg: "#87d0f2",
         assists:0,
@@ -137,7 +137,7 @@ const scorerData = [
     {
         id: 16,
         player: "Hamza ",
-        matchPlayed: 11,
+        matchPlayed: 12,
         Goals: 0,
         assists:0,
         bg: "#7ec774",

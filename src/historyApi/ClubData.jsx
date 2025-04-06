@@ -325,6 +325,38 @@ const HistoryData = [
         },
         finalScore: "1 - 3"
     },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "06-April-2025"
+        },
+        matchbetween:"Wolf FC vs Usmania FC",
+
+        starting11: {
+            player1: "Usman (K)",
+            player2: "Shehroz",
+            player3: "Basit",
+            player4: "Javaid (C)",
+            player5: "Arslan",
+            player6: "Zuriaz",
+            player7: "Zulqarnain",
+            player8: "Danish",
+            player9: "Umar",
+            player10: "Zeeshan",
+            player11: "Hamza",
+                   
+        },
+        substitutions: {
+            player1: "Wahab",
+            player2: "Daniyal",
+            player3: "Abdul Rahman",
+        },
+        goalScorers: {
+            teamScorers: ["Zeeshan ⚽️", "Danish ⚽️","Zuraiz ⚽️"],
+            assistProviders: ["Arslan 🎯","Daniyal 🎯"]
+        },
+        finalScore: "3 - 3"
+    },
 ]
 
 export default HistoryData
