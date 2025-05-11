@@ -357,6 +357,140 @@ const HistoryData = [
         },
         finalScore: "3 - 3"
     },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "20-April-2025"
+        },
+        matchbetween:"Wolf FC vs  Knight Rider FC",
+
+        starting11: {
+            player1: "Raza (K)",
+            player2: "Hassan",
+            player3: "Basit",
+            player4: "Javaid (C)",
+            player5: "Arslan",
+            player6: "Zuriaz",
+            player7: "Daniyal",
+            player8: "Danish",
+            player9: "Umar",
+            player10: "Atique",
+            player11: "Daniyal jr",
+                   
+        },
+        substitutions: {
+            player1: "Zeeshan",
+            player2: "Abu Bakr",
+            player3: "Hamza",
+            player4: "Ali",
+            player5: "Naveed",
+        },
+        goalScorers: {
+            teamScorers: [""],
+            assistProviders: [""]
+        },
+        finalScore: "0 - 0"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "27-April-2025"
+        },
+        matchbetween:"Wolf FC vs  Friend FC",
+
+        starting11: {
+            player1: "Raza (K)",
+            player2: "Hassan",
+            player3: "Basit",
+            player4: "Javaid (C)",
+            player5: "Arslan",
+            player6: "Zuriaz",
+            player7: "Daniyal",
+            player8: "Danish",
+            player9: "Umar",
+            player10: "Ali",
+            player11: "Daniyal jr",
+                   
+        },
+        substitutions: {
+            player1: "Zeeshan",
+            player2: "Umair",
+            player3: "Atique",
+          
+        },
+        goalScorers: {
+            teamScorers: ["Zuriaz ⚽️⚽️","Arslan ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "3 - 0"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "04-May-2025"
+        },
+        matchbetween:"Wolf FC vs  Shayan FC",
+
+        starting11: {
+            player1: "Raza (K)",
+            player2: "Sharoz",
+            player3: "Basit",
+            player4: "Zulqarnain",
+            player5: "Arslan",
+            player6: "Zuriaz",
+            player7: "Atique",
+            player8: "Zeeshan",
+            player9: "Abu Bakr",
+            player10: "Hamza",
+            player11: "Daniyal jr",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Javaid",
+            player3: "Raheel",
+            player4: "Usman",
+            player5: "Hassan",
+          
+        },
+        goalScorers: {
+            teamScorers: ["Own Goal ⚽️","Atique ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "2 - 1"
+    },
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "11-May-2025"
+        },
+        matchbetween:"Wolf FC vs  Sabzazar FC",
+
+        starting11: {
+            player1: "Raza (K)",
+            player2: "Sharoz",
+            player3: "Basit",
+            player4: "Zulqarnain",
+            player5: "Hassan",
+            player6: "Zuriaz",
+            player7: "Atique",
+            player8: "Zeeshan",
+            player9: "Umair",
+            player10: "Sajjad",
+            player11: "Javaid (C)",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Abu Bakr",
+            player3: "Usman",
+        },
+        goalScorers: {
+            teamScorers: ["Own Goal ⚽️","Atique ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "1 - 0"
+    },
 ]
 
 export default HistoryData
