@@ -13,11 +13,11 @@ const Home = () => {
           <h2>12</h2>
         </div>
         <div className="goals-count mt">
-          <h2>Lost</h2>
+          <h2>Losses</h2>
           <h2>9</h2>
         </div>
         <div className="goals-count mt">
-          <h2>draw</h2>
+          <h2>Draws</h2>
           <h2>3</h2>
         </div>
         <div className="goals-count mt">
