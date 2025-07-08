@@ -486,11 +486,189 @@ const HistoryData = [
             player3: "Usman",
         },
         goalScorers: {
-            teamScorers: ["Own Goal ⚽️","Atique ⚽️"],
+            teamScorers: ["Sajjad ⚽️",],
             assistProviders: [""]
         },
         finalScore: "1 - 0"
     },
+
+       {
+        timeStamp: {
+            day: "Sunday",
+            date: "1-June-2025"
+        },
+        matchbetween:"Wolf FC vs  Knight Rider FC",
+
+        starting11: {
+            player1: "Umair",
+            player2: "Daniyal",
+            player3: "Basit",
+            player4: "Zulqarnain",
+            player5: "Usman (K)",
+            player6: "Zuriaz",
+            player7: "Atique",
+            player8: "Zeeshan",
+            player9: "Arslan",
+            player10: "Danish",
+            player11: "Javaid (C)",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Abu Bakr",
+            player3: "Daniyal ",
+            player4: "Hamza",
+            player5: "Bilal",
+        },
+        goalScorers: {
+            teamScorers: ["Zeeshan ⚽️","Bilal ⚽️⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "3 - 2"
+    },
+
+
+       {
+        timeStamp: {
+            day: "Monday",
+            date: "9-June-2025"
+        },
+        matchbetween:"Wolf FC vs  Flying Horse FC",
+
+        starting11: {
+            player1: "Umair",
+            player2: "Daniyal",
+            player3: "Abu Bakar",
+            player4: "Zulqarnain",
+            player5: "Usman (K)",
+            player6: "Hassan",
+            player7: "Atique",
+            player8: "Zeeshan",
+            player9: "Danish",
+            player10: "Abdul Rehman",
+            player11: "Asad Khan",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Arslan",
+            player3: "Zuraiz ",
+            player4: "Hamza",
+        },
+        goalScorers: {
+            teamScorers: ["Arslan ⚽️","Asad Khan ⚽️","Hassan ⚽️⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "4 - 2"
+    },
+
+      {
+        timeStamp: {
+            day: "Satursday",
+            date: "14-June-2025"
+        },
+        matchbetween:"Wolf FC vs  A One Star FC",
+
+        starting11: {
+            player1: "Umair",
+            player2: "Daniyal",
+            player3: "Abu Bakar",
+            player4: "Zulqarnain",
+            player5: "Usman (K)",
+            player6: "Hassan",
+            player7: "Atique",
+            player8: "Zeeshan",
+            player9: "Danish",
+            player10: "Abdul Rehman",
+            player11: "Asad Khan",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Arslan",
+            player3: "Zuraiz ",
+            player4: "Bilal",
+        },
+        goalScorers: {
+            teamScorers: ["Bilal ⚽️⚽️⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "3 - 3"
+    },
+
+    {
+        timeStamp: {
+            day: "Sunday",
+            date: "22-June-2025"
+        },
+        matchbetween:"Wolf FC vs  Black Hawks FC",
+
+        starting11: {
+            player1: "Zuraiz",
+            player2: "Bhaya",
+            player3: "Umar",
+            player4: "Zulqarnain",
+            player5: "Umair (K)",
+            player6: "Hassan",
+            player7: "Atique",
+            player8: "Arslan",
+            player9: "Lefti",
+            player10: "Basit",
+            player11: "Javaid (C)",
+                   
+        },
+        substitutions: {
+            player1: "Amanullah",
+            player2: "Zeeshan",
+            player3: "Daniyal ",
+            player4: "Abu Bakar",
+        },
+        goalScorers: {
+            teamScorers: ["Lefti ⚽️","Umar ⚽️", "Zeeshan ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "3 - 1"
+    },
+
+
+     {
+        timeStamp: {
+            day: "Tuesday",
+            date: "01-June-2025"
+        },
+        matchbetween:"Wolf FC vs  A One Star FC",
+
+        starting11: {
+            player1: "Zuraiz",
+            player2: "Danish",
+            player3: "Umar",
+            player4: "Amanullah",
+            player5: "Raza (K)",
+            player6: "Hassan",
+            player7: "Atique",
+            player8: "Arslan",
+            player9: "Ali",
+            player10: "Abdul Rehman",
+            player11: "Javaid (C)",
+                   
+        },
+        substitutions: {
+            player1: "Umair",
+            player2: "Zeeshan",
+            player3: "Abu Bakar",
+        },
+        goalScorers: {
+            teamScorers: ["Danish ⚽️","Arslan ⚽️", "Bilal ⚽️","Abdul Rehman ⚽️"],
+            assistProviders: [""]
+        },
+        finalScore: "4 - 1"
+    },
+
+
+
+    
+
 ]
+
 
 export default HistoryData
