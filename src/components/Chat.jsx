@@ -71,7 +71,7 @@ const Chat = () => {
      // url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCKYhX_a-LBNPNrydxpF5mEE92Ej-pKyEM",
   method: "POST",
   params: {
-    key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
+    key: "AIzaSyAgQstdOGg9yTgN5ZBxd0WX7ksjcbouVYU",
   },
   headers: {
     "Content-Type": "application/json",
@@ -105,7 +105,7 @@ setResponseText(answer);
 
   return (
     <div>
-     <h2 className="ask">Ask Aboutss Team & Player's Stats</h2>
+     <h2 className="ask">Ask Abouta Team & Player's Stats</h2>
      <p className="hint">Hint: Ask about player goals</p>
       <textarea value={question} onChange={(e) => setQuestion(e.target.value)} />
       <br />
