@@ -66,22 +66,33 @@ const Chat = () => {
             
         .join("\n")}`;
 
-      const response = await axios({
-        url: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
-        method: "POST",
-        data: {
-          contents: [
-            {
-              parts: [{ text: `${context}\n\nUser Question: ${question}` }],
-            },
-          ],
-        },
-      });
+   const response = await axios({
+  url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+  method: "POST",
+  params: {
+    key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA", // your key (temporary use only)
+  },
+  headers: {
+    "Content-Type": "application/json",
+  },
+  data: {
+    contents: [
+      {
+        parts: [
+          {
+            text: `${context}\n\nUser Question: ${question}`,
+          },
+        ],
+      },
+    ],
+  },
+});
 
-      const answer = response.data.candidates[0].content.parts[0].text;
-      console.log(answer);
+const answer =
+  response.data.candidates[0].content.parts[0].text;
 
-      setResponseText(answer);
+console.log(answer);
+setResponseText(answer);
     } catch (error) {
       console.error("Error fetching answer:", error);
       setResponseText("Failed to generate an answer.");
