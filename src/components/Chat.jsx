@@ -105,7 +105,7 @@ setResponseText(answer);
 
   return (
     <div>
-     <h2 className="ask">Ask About Team & Player's Stats</h2>
+     <h2 className="ask">Ask Aboutss Team & Player's Stats</h2>
      <p className="hint">Hint: Ask about player goals</p>
       <textarea value={question} onChange={(e) => setQuestion(e.target.value)} />
       <br />
