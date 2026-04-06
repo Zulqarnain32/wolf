@@ -67,7 +67,7 @@ const Chat = () => {
         .join("\n")}`;
 
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCKYhX_a-LBNPNrydxpF5mEE92Ej-pKyEM",
+        url: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
         method: "POST",
         data: {
           contents: [
