@@ -67,12 +67,12 @@ const Chat = () => {
         .join("\n")}`;
 
   const response = await axios({
-  // url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-     url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCKYhX_a-LBNPNrydxpF5mEE92Ej-pKyEM",
+  url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+     // url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCKYhX_a-LBNPNrydxpF5mEE92Ej-pKyEM",
   method: "POST",
-  // params: {
-  //   key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
-  // },
+  params: {
+    key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
+  },
   headers: {
     "Content-Type": "application/json",
   },
