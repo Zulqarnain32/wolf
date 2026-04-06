@@ -66,11 +66,11 @@ const Chat = () => {
             
         .join("\n")}`;
 
-   const response = await axios({
-  url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+  const response = await axios({
+  url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
   method: "POST",
   params: {
-    key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA", // your key (temporary use only)
+    key: "AIzaSyB-GpdKJ0t-bOvDkTXCzLLc6v0aH8D4tNA",
   },
   headers: {
     "Content-Type": "application/json",
@@ -88,6 +88,11 @@ const Chat = () => {
   },
 });
 
+const answer =
+  response.data.candidates[0].content.parts[0].text;
+
+console.log(answer);
+setResponseText(answer);
 const answer =
   response.data.candidates[0].content.parts[0].text;
 
