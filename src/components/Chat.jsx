@@ -94,11 +94,7 @@ const answer =
 
 console.log(answer);
 setResponseText(answer);
-const answer =
-  response.data.candidates[0].content.parts[0].text;
 
-console.log(answer);
-setResponseText(answer);
     } catch (error) {
       console.error("Error fetching answer:", error);
       setResponseText("Failed to generate an answer.");
